@@ -38,8 +38,8 @@ for (let i = 1; i <= 100; i++) {
     // in the end if the number is divisible by 3 I print Fizz
          } else if (i % 5 === 0) {
           console.log('Buzz');
-         }  
-         else console.log(i);
+    // print the number or the result of the condition
+         } else console.log(i);
     }
 
 //END EXERCISE
