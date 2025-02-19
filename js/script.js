@@ -32,13 +32,9 @@ for (let i = 1; i <= 100; i++) {
 // now i create a condition where if the number is divisible by 3 and 5 i print FizzBuzz
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
-
-
 // generate the condition where if the number is divisible by 5 I print Buzz
     } else if (i % 3 === 0) {
         console.log("Fizz");    
-
-
 // in the end if the number is divisible by 3 I print Fizz
     } else if (i % 5 === 0) {
         console.log("Buzz");
