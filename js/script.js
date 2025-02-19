@@ -20,26 +20,26 @@ ragioniamo un secondo
 
 4. se invece l'elemento dell'array è divisibile per 3 stampo Fizz
 
-5. stampo il numero
+5. stampo il numero o il risultato della condizione
 
 */
 //mi fingerò professionale e quindi ora scriverò tutto in inglese.
 
 //EXERCISE
+
 // create a for loop that goes from 1 to 100
 for (let i = 1; i <= 100; i++) {
+    // now i create a condition where if the number is divisible by 3 and 5 i print FizzBuzz
+         if (i % 3 === 0 && i % 5 === 0) {
+             console.log('FizzBuzz');
+    // generate the condition where if the number is divisible by 5 I print Buzz
+         } else if (i % 3 === 0) {
+            console.log('Fizz');
+    // in the end if the number is divisible by 3 I print Fizz
+         } else if (i % 5 === 0) {
+          console.log('Buzz');
+         }  
+         else console.log(i);
+    }
 
-// now i create a condition where if the number is divisible by 3 and 5 i print FizzBuzz
-    if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
-// generate the condition where if the number is divisible by 5 I print Buzz
-    } else if (i % 3 === 0) {
-        console.log("Fizz");    
-// in the end if the number is divisible by 3 I print Fizz
-    } else if (i % 5 === 0) {
-        console.log("Buzz");
-    }  console.log(i);
-    
-}
-
-
+//END EXERCISE
